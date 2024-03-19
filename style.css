@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+   color: #4A4B4D;
+   font-family: Montserrat;
+   font-weight: 400;
+   display: flex;
+   align-items: end;
+   justify-content: end;
+   padding: 20px;
+   
+}
+.help{
+    padding-inline: 30px;
+   
+}
+header a{
+    color: #4A4B4D;
+    text-decoration: none;
+}
+.line{
+    background-color: #4A4B4D;
+    height: 1px;
+    border: 1px solid #D2D2D2
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding: 20px;
+    
+}
+
+.two{
+    display: flex;
+    color: #222222;
+    font-family: Montserrat;
+    align-items: center;
+   
+}
+
+.m span{
+    color: #004197;
+    font-style: italic;
+   font-family:  Monotype Corsiva;
+   font-weight: 500;
+   
+
+}
+
+.m{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+
+.macc{
+    font-style: italic;
+    font-family:  Monotype Corsiva;
+    color: #E2342D;
+}
+
+.s{
+    margin-inline: 40px;
+}
+
+.e{
+    margin-inline: 40px;
+}
+.b{
+    margin-inline: 40px;
+}
+.a{
+    margin-inline: 40px;
+}
+
+.three{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    margin-left: -30px;
+    
+}
+
+.search img{
+    padding-left: 10px;
+}
+.c{
+    color: #222222;
+    font-family: Montserrat;
+    font-weight: 300;
+    padding-left: 50px;
+}
+
+
+.bxone{
+    width: 80px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 82px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 10%;
+}
+
+.pads img{
+background-color: #F3F3F3;
+padding-bottom: 10px;
+    padding-top: 10px;
+}
+.pads{
+    padding-bottom: 20px;
+}
+
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bxtwo{
+    background-color: #F3F3F3;
+   margin-left: 106px;
+   margin-top: 17px;
+   margin-bottom: 44px;
+   padding: 10px;
+   width: 30%;
+}
+.bxtwo img{
+    width: 450px;
+    margin-left: -10px;
+    margin-top: 9px
+}
+
+.bxthree{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.cw{
+    color: #231F20;
+    font-weight: 900;
+    font-family: Poppins;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    font-size: 30px;
+    margin-left: -20px;
+
+}
+
+.text{
+    font-family: Montserrat;
+    color: #E2342D;
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: -30px;
+}
+.flex{
+    display: flex;
+    margin-left: -47px;
+}
+
+.bo{
+    border: 1px solid #70707080;
+    margin-top: 30px;
+    padding: 10px;
+    margin-left: 25px;
+
+}
+button{
+    width: 500px;
+height: 38px;
+background-color: #004197;
+outline: none;
+border: none;
+color:#FFFFFF;
+margin-top: 30px;
+font-size: 19px;
+margin-left: -30px;
+
+}
+
+.txt{
+    margin-left: -30px;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: justified;
+color: #222222;
+width: 72vh;
+padding-top: 20px;
+}
+
+select{
+    width: 50vh;
+    height: 30px;
+    display: flex;
+    padding-inline: 100px;
+    border: 0.5px solid gainsboro;
+    outline: none;
+    opacity: 0.5;
+    margin-bottom: 20px;
+
+
+}
+
+.select{
+    margin-left: -30px;
+    padding-top: 30px;
+  
+}
+
+
+
+.you{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+padding-inline: 30px;
+padding-bottom: 30px;
+
+}
+.image img{
+    width: 64px;
+    height: 64px;
+    margin-top: 171px;
+}
+.center{
+    display: flex;
+}
+
+.boxone{
+  
+    display: flex;
+    width: 100%;
+}
+
+.products{
+      background-color: #F3F3F3;;
+    width: 40%;
+    height: 60vh;
+    margin-inline: 20px;
+    margin-left: 20px;
+}
+
+.products img{
+    margin-inline: 40px;
+    padding-top: 70px;
+}
+.fm{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 63px;
+
+}
+
+.f{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 99px;
+}
+
+.t{
+    background-color: #E2342D;
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    color: white;
+height: 31px;
+width: 30%;
+padding-right: 20px;
+padding-bottom: 10px;
+margin-left: auto;
+
+}
+
+.face{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 39px;
+}
+
+footer{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    padding: 70px;
+    gap: 90px;
+    margin-top: 76px;
+}
+
+.span span{
+    font-family: Monotype Corsiva;
+    color: #004197;
+}
+
+.span{
+    font-size: 40px;
+}
+
+.duo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 25%;
+    font-size: 24px;
+}
+
+
+
+.trez{
+    display: flex;
+    flex-direction: column;
+}
+
+.emails{
+    display: flex;
+    padding-top: 40px;
+}
+
+.lines{
+    border: 1px solid #222222;
+    height: 1px;
+    width: 74%;
+}
+
+.first{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.icons{
+ padding-top: 20px;
+}
+
+.icons img{
+    width: 190px;
+}
+
+input{
+    width: 100%;
+    color: #222222;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    outline: none;
+}
+
+.emails span img{
+    margin-left: -26px;
+}
+
+.three span sup img{
+    margin-left: -37px;
+}
