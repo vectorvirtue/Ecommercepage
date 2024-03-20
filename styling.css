@@ -108,7 +108,8 @@ width: 67%;
     animation: backwards;
 } */
 
-.button{
+.top
+button{
     background: #C1A261;
    font-family: Pt Sans;
    color: #fff;
@@ -123,7 +124,7 @@ width: 67%;
 }
 
 .top{
-  padding-top: 90px;
+  padding-top: 21px;
 }
 
 span img{
