@@ -296,6 +296,7 @@ background-color: #C1A261;
     .one{
         height: auto; 
         transition: transform 0.3s ease;   
+        margin-top: -34px;
     }
 
     .one:hover{

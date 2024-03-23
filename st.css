@@ -202,7 +202,7 @@ nav{
 .display{
     display: flex;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 61px;
     font-family: Pt Sans;
     font-weight: 800;
  
@@ -431,14 +431,14 @@ background-repeat: no-repeat;
 
 .displays{
   display: flex;
-  padding-top: 670px;
+  padding-top: 600px;
   margin-left: 70px;
 }
 
 .displayer{
   display: flex;
   align-items: center;
-  padding-top: 650px;
+  padding-top: 550px;
   font-family: Pt Sans;
   font-weight: 800;
 
@@ -531,6 +531,7 @@ padding: 20px;
 
 .rect{
   background-image:url(Rectangle\ 100\ \(1\).png);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Rectangle\ 100\ \(1\).png);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -541,9 +542,6 @@ padding: 20px;
   flex-direction: column;
 }
 
-.rect:hover{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Rectangle\ 100\ \(1\).png);
-}
 
 .jo{
   font-family:  "Goudy Bookletter 1911", serif;
@@ -686,6 +684,8 @@ border: none;
 padding-inline: 20px;
 padding: 8px;
 margin-block: 20px;
+border-radius: 8px;
+width: 65%;
 
 }
 
@@ -702,8 +702,8 @@ input::placeholder{
 .sub{
   background-color: #BFA162;
   border-radius: 6px;
-  width: 25vh;
-  margin-block: 10px;;
+  width: 37vh;
+  
   
   
 }
@@ -712,7 +712,7 @@ input::placeholder{
   background-color: transparent;
   border: none;
   outline: none;
-  margin-inline: 69px;
+  margin-inline: 93px;
 padding: 8px;
 
 }
@@ -720,7 +720,7 @@ padding: 8px;
 .audit img{
   width: 10%;
   height: 9vh;
-  margin-top: -126px;
+  margin-top: -96px;
   margin-left: 60px;
 }
 
